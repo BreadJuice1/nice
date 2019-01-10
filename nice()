@@ -1,0 +1,11 @@
+# nice
+import random
+nice = ['nice','not nice']
+
+def is_nice():
+  input = input('s nice:')
+  number = random.randint(0, 1)
+  if number == '1':
+    print(nice(1))
+  else:
+    is_nice()
